@@ -27,7 +27,8 @@ public class DijkstraAlgo {
             for (int j = 0; j < sizeOfLenght; ++j) {
                 gridArea[i][j] = new NodeClass(i, j);
                 if (matrix[i][j] == false) {
-                    gridArea[i][j].blocked = true;
+
+                   // gridArea[i][j].blocked = true;
                 }
             }
         }
